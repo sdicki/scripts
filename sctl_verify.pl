@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Cwd 'chdir';
-use JSON;
 
 my $DEBUG = 0;
 
