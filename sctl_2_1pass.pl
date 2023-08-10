@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-use Getopt::Long;
 
 my $DEBUG = 0;
 
