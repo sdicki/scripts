@@ -1,9 +1,12 @@
 
 create_alert.pl: used to create terraform files in cloud-infra/terraform/grafana/alerts from a template.
+```
 > cd cloud-infra/terraform/grafana/environments/prod/alerts/site_metrics
 > create_alert.pl
+```
 
 sctl_2_1pass.pl: used to more easily get scuttle credentials.
+```
 > cd ~/Development/git/vapor-io/edge-ops/sites/sea/ke2-sea
 > sctl_2_1pass.pl
 Password:
@@ -37,11 +40,16 @@ TOTAL ITEM COUNT: 17
 #######################################################################
 <REDACTED>
 ...
+```
 
 sctl_verify.pl: used to compare what was in scuttle vs. what has now been migrated to 1pass.
+```
 > cd ~
 > sctl_verify.pl
+```
 
 sctl_2_envrc.pl: used to create repo dir .envrc files which should match what is contained in the .scuttle file.
+```
 > cd ~
 > sctl_2_envrc.pl
+```
